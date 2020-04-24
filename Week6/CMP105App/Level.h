@@ -2,6 +2,9 @@
 
 #include <SFML/Graphics.hpp>
 #include "Framework/Input.h"
+#include "GravBall.h"
+#include "FollowBall.h"
+#include "LaunchBall.h"
 #include <string.h>
 #include <iostream>
 
@@ -25,4 +28,7 @@ private:
 	Input* input;
 
 	// More level variables
+	GravBall gravBall;
+	FollowBall followBall;
+	LaunchBall launchBall;
 };

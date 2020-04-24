@@ -13,7 +13,7 @@ sf::Vector2f Vector::normalise(const sf::Vector2f &source)
 // Returns the Vector magnitude
 float Vector::magnitude(const sf::Vector2f vec)
 {
-	return (float)sqrt((vec.x*vec.x) + (vec.y*vec.y));
+	return (float)(vec.x*vec.x) + (vec.y*vec.y);
 }
 
 float Vector::dot(const sf::Vector2f& s1, const sf::Vector2f& s2)
